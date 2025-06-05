@@ -1,4 +1,3 @@
-# Basic-Python-Concepts
 # 🧮 Python Basics: Math Operations & Personalized Greeting
 
 This repository contains a simple Python script that performs two beginner-friendly tasks:
