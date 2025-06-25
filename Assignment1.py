@@ -1,12 +1,14 @@
-a = int(input("Enter the first number : "))
-b = int(input("Enter the second number: "))
+num_type = "first"
+x = int(input(f"Enter the {num_type} number: "))
 
-print("Addition :",a+b)
-print("Substraction :",a-b)
-print("Multiplication :",a*b)
-if b!=0:
-    print("Divison :",a/b)
-else:
-    print("Divison by zero is not possible")
+num_type = "second"
+y = int(input(f"Enter the {num_type} number: "))
 
-    
+output1 = x + y
+print("Addition :" ,output1)
+output2 = x - y
+print("Substraction :" ,output2)
+output3 = x * y
+print("Multiplication :",output3)
+output4 = x/y
+print("Divison :",output4)
